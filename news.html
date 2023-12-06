@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WWF > 소식</title>
+    <link href="img/favi.ico" rel="icon" />
+    <link href="css/news.css" rel="stylesheet" />
+    <link href="css/common.css" rel="stylesheet" />
+    <link href="css/common2.css" rel="stylesheet" />
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/news.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  </head>
+  <body>
+    <div id="header">
+      <h1>
+        <a href="index.html"><img src="img/logo.png" alt="logo이미지" /></a>
+      </h1>
+      <div class="navi">
+        <ul class="nv1">
+          <li><a href="about.html">소개</a></li>
+          <li><a href="act.html">활동</a></li>
+          <li><a href="join.html">참여</a></li>
+          <li><a href="found.html">후원</a></li>
+          <li><a href="news.html">소식</a></li>
+        </ul>
+        <div class="nv2">
+          <span class="material-symbols-outlined search"> search</span>
+          <div class="support">
+            <a href="#1">후원하기</a>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="b1"></div>
+          <div class="b2"></div>
+          <div class="b3"></div>
+        </div>
+      </div>
+      <div class="navi2">
+        <div class="navi2wrap">
+          <img src="img/img1.jpg" alt="네비 이미지1" />
+          <ul>
+            <li>
+              <a href="about.html">소개</a>
+              <div></div>
+            </li>
+            <li>
+              <a href="act.html">활동</a>
+              <div></div>
+            </li>
+            <li>
+              <a href="join.html">참여</a>
+              <div></div>
+            </li>
+            <li>
+              <a href="found.html">후원</a>
+              <div></div>
+            </li>
+            <li>
+              <a href="news.html">소식</a>
+              <div></div>
+            </li>
+          </ul>
+          <img src="img/img2.jpg" alt="네비 이미지2" />
+        </div>
+      </div>
+    </div>
+    <div id="visual">
+      <div class="viwrap">
+        <div class="vi_imgwrap">
+          <img class="panda" src="img/news_vi.jpg" alt="비주얼 이미지" />
+        </div>
+
+        <div class="ab_home">
+          <div>
+            <img src="img/home.png" alt="집모양 아이콘" />
+            <h4>소식 > 판다메일</h4>
+          </div>
+          <h2 class="home_title">PANDA MAIL</h2>
+          <h3>판다메일</h3>
+        </div>
+      </div>
+    </div>
+    <div id="container">
+      <div class="con1">
+        <ul>
+          <li class="title">판다메일<span>?</span></li>
+          <li>
+            <p>
+              판다메일은 WWF의 활동 소식을 비롯해 후원자님들께 유용한 정보를
+              엄선하여 발송하는 뉴스레터이며, WWF에 후원해 주시는 감사한
+              분들에게 우선적으로 문자와 이메일을 발송합니다.
+            </p>
+            <p>
+              판다메일은 사람과 자연이 조화로운 미래를 만들기 위한 노력에
+              함께하는 WWF 후원자님들과 함께합니다.
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div class="con2">
+        <h2>판다메일을 통해서 확인할 수 있는 정보<span class="dot"></span></h2>
+        <ul>
+          <li>
+            <img src="img/panda_top_icon01.png" alt="판다메일 정보아이콘1" />
+            <p>WWF의 자연보전 활동 소식</p>
+          </li>
+          <li>
+            <img src="img/panda_top_icon02.png" alt="판다메일 정보아이콘2" />
+            <p>wwf 글로벌 자연보전 성과 및 소식</p>
+          </li>
+          <li>
+            <img src="img/panda_top_icon03.png" alt="판다메일 정보아이콘3" />
+            <p>월별 이벤트 및 행사</p>
+          </li>
+          <li>
+            <img src="img/panda_top_icon04.png" alt="판다메일 정보아이콘4" />
+            <p>후원자들을 위한 필수 공지사항</p>
+          </li>
+        </ul>
+      </div>
+      <div class="con3">
+        <div class="con3_top">
+          <h4>총 60건</h4>
+          <ul class="top_right">
+            <li class="cal">
+              <div>
+                <input type="text" class="datepicker" /> ~
+                <input type="text" class="datepicker" />
+              </div>
+            </li>
+            <li class="ser">
+              <div>
+                <select>
+                  <option>제목</option>
+                  <option>내용</option>
+                  <option>제목 + 내용</option>
+                </select>
+                <input type="text" class="search" />
+                <span
+                  ><img src="img/news_con3_2.png" alt="돋보기 아이콘"
+                /></span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <ul class="con3_news">
+          <li>
+            <img src="img/panda_12.jpg" alt="12월 판다메일" />
+            <h5>14 Nov 2023</h5>
+            <h3>2023년 12월 판다메일</h3>
+            <p>
+              12월을 맞이하며, 판다메일은 여러분께 더욱 풍성한 소식과 흥미로운
+              이야기를 전달하려고 합니다. 지난 달에 이어서, WWF 후원자 굿즈
+              캠페인을 소개하고, 팜유 주제의 방문기와 다양한 소식들을 더 자세히
+              알려드릴 예정입니다.
+            </p>
+            <div class="more">
+              <p>자세히 보기</p>
+              <span>→</span>
+            </div>
+          </li>
+          <li>
+            <img src="img/panda_11.png" alt="11월 판다메일" />
+            <h5>27 Jul 2023</h5>
+            <h3>2023년 11월 판다메일</h3>
+            <p>
+              11월, 판다메일은 더욱 풍성한 소식과 흥미로운 이야기로 여러분을
+              찾아왔습니다. 11월 뉴스레터를 통해 다시 인사드립니다. 하나뿐인
+              지구를 위한 소식과 흥미로운 이야기를 담은 이번 판다메일을
+              즐겨보시길 바라며,
+            </p>
+            <div class="more">
+              <p>자세히 보기</p>
+              <span>→</span>
+            </div>
+          </li>
+          <li>
+            <img src="img/panda_10.jpg" alt="10월 판다메일" />
+            <h5>26 Jul 2023</h5>
+            <h3>2023년 10월 판다메일</h3>
+            <p>
+              '상어'와 '가오리'의 보전에 대한 중요성을 강조하며, WWF 월간
+              뉴스레터 10월호를 전해드립니다! 이번호에서는 지속가능한
+              양식수산물, 팜유, 패션에 대한 세미나 소식을 전해드리며, 환경과
+              생태계를 지키기 위한 노력을 함께 나누고자 합니다.
+            </p>
+            <div class="more">
+              <p>자세히 보기</p>
+              <span>→</span>
+            </div>
+          </li>
+          <li>
+            <img src="img/panda_9.png" alt="9월 판다메일" />
+            <h5>14 Nov 2023</h5>
+            <h3>2023년 9월 판다메일</h3>
+            <p>
+              9월 판다메일은 8월 판다메일 설문을 통해 후원자님께서 보내주신
+              소중한 의견을 반영하도록 노력하였습니다. 풍성하고 행복한 추석 명절
+              되세요!
+            </p>
+            <div class="more">
+              <p>자세히 보기</p>
+              <span>→</span>
+            </div>
+          </li>
+          <li>
+            <img src="img/panda_8.png" alt="8월 판다메일" />
+            <h5>14 Nov 2023</h5>
+            <h3>2023년 8월 판다메일</h3>
+            <p>
+              기후변화로 뜨거워진 지구를 직간접적으로 체감할 수 있는 8월!
+              WWF-Korea는 8월을 맞이하여 일상에서 체감할 수 있는 기후변화 문제를
+              중심으로
+            </p>
+            <div class="more">
+              <p>자세히 보기</p>
+              <span>→</span>
+            </div>
+          </li>
+          <li>
+            <img src="img/panda_7.jpg" alt="7월 판다메일" />
+            <h5>14 Nov 2023</h5>
+            <h3>2023년 7월 판다메일</h3>
+            <p>
+              후원자님께서도 하루가 다르게 뜨거워지는 지구를 체감할 수 있는
+              7월입니다. WWF는 7월을 맞이하여 직접 생활 속에서 실천할 수 있는
+              플라스틱 문제를 중심으로 7월 판다메일을 구성하였습니다.
+            </p>
+            <div class="more">
+              <p>자세히 보기</p>
+              <span>→</span>
+            </div>
+          </li>
+          <li>
+            <img src="img/panda_6.jpg" alt="6월 판다메일" />
+            <h5>14 Nov 2023</h5>
+            <h3>2023년 6월 판다메일</h3>
+            <p>
+              갈수록 빨라지는 더위에도 붉은 장미와 푸른 신록이 아름다운
+              계절입니다. WWF와 함께 하나 뿐인 지구를 지키며 풍성해진 초록
+              숲처럼 행복으로 가득 채우는 한 달 되였으면 하는 바램
+            </p>
+            <div class="more">
+              <p>자세히 보기</p>
+              <span>→</span>
+            </div>
+          </li>
+          <li>
+            <img src="img/panda_5.jpg" alt="5월 판다메일" />
+            <h5>14 Nov 2023</h5>
+            <h3>2023년 5월 판다메일</h3>
+            <p>
+              세계 철새의 날 (5월 13일), 멸종위기종의 날 (5월 19일), 국제
+              생물다양성의 날 (5월 22일)을 맞아, WWF는 기후변화를 막고
+              생물다양성을 유지하며 우리에게 하나뿐인 지구의 환경을 보전하기
+              위해 노력하는 소식들을 함께 나누고자 합니다.
+            </p>
+            <div class="more">
+              <p>자세히 보기</p>
+              <span>→</span>
+            </div>
+          </li>
+        </ul>
+        <ul class="number">
+          <li><a href="#1">1</a></li>
+          <li><a href="#1">2</a></li>
+          <li><a href="#1">3</a></li>
+          <li><a href="#1">4</a></li>
+          <li><a href="#1">5</a></li>
+          <li><a href="#1">6</a></li>
+          <li><a href="#1">7</a></li>
+          <li><a href="#1">8</a></li>
+          <li><a href="#1">9</a></li>
+          <li>
+            <a href="#1"
+              ><span class="material-symbols-outlined"> double_arrow </span></a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="f1">
+        <ul class="qna">
+          <li><a href="#1">후원회원 약관</a></li>
+          <li><a href="#1">개인정보처리방침</a></li>
+          <li><a href="#1">자주묻는 질문</a></li>
+          <li><a href="#1">문의</a></li>
+        </ul>
+        <ul class="follow">
+          <li>FOLLOW US</li>
+          <li>
+            <a href="#1"><img src="img/icon_insta.jpg" alt="인스타그램" /></a>
+          </li>
+          <li>
+            <a href="#1"><img src="img/icon_fb.png" alt="페이스북" /></a>
+          </li>
+          <li>
+            <a href="#1"><img src="img/icon_yout.jpg" alt="유튜브" /></a>
+          </li>
+          <li>
+            <a href="#1"
+              ><img src="img/icon_n_blog.png" alt="네이버블로그"
+            /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="f2">
+        <div class="f2_left">
+          <div>
+            <a href="index.html"><img src="img/logo.png" alt="로고이미지" /></a>
+            <h3>WWF-Korea</h3>
+            <p>(세계자연기금 한국본부)</p>
+          </div>
+          <h2>대표전화 : <span>02-722-1601</span></h2>
+          <p class="contact">
+            대표자 : 홍정욱 / 고유번호 : 101-82-23485<br />
+            주소 : 서울특별시 종로구 종로 47 (공평동) SC제일은행본점빌딩 15층
+            WWF (세계자연기금)<br />
+            후원 문의 : members@wwfkorea.or.kr<br />
+            기업 문의 : partnership@wwfkorea.or.kr<br />
+            홍보 및 마케팅 문의 : marketing@wwfkorea.or.kr<br />
+            기타 문의 : info@wwfkorea.or.kr
+          </p>
+          <p class="copyright">
+            © 2021 WWF – World Wide Fund For Nature (also known as World
+            Wildlife Fund). Creative Commons licence.
+          </p>
+        </div>
+        <div class="f2_right">
+          <h3>뉴스레터 구독하기</h3>
+          <p>
+            WWF 뉴스레터를 구독하고 최신 소식을 받아보세요.<br />
+            입력한 메일 주소로 WWF 뉴스레터를 받아보실 수 있습니다.
+          </p>
+          <div class="form">
+            <div class="name">
+              <h4>* 이름</h4>
+              <p>* 필수입력사항</p>
+            </div>
+            <input type="text" />
+            <h4>* 이메일</h4>
+            <input type="text" />
+            <h4>전화번호</h4>
+            <input type="text" />
+          </div>
+          <div class="check">
+            <input type="checkbox" /><span class="blue">[필수]</span>
+            개인정보 처리방침
+          </div>
+          <div class="check">
+            <input type="checkbox" /><span class="blue">[필수]</span>
+            마케팅 수신동의
+          </div>
+          <div class="subscribe">
+            <a href="#1">구독신청</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

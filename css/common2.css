@@ -1,0 +1,236 @@
+* {
+  scroll-behavior: smooth;
+}
+@media (min-width: 1521px) {
+  /*visual*/
+  #visual {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+  #visual .viwrap {
+    width: 1500px;
+    height: 100%;
+    margin: 0px auto;
+    position: relative;
+  }
+  #visual .vi_imgwrap {
+    width: 60%;
+    height: 70%;
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    transition: 1s;
+  }
+  #visual .vi_imgwrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  #visual .vi_imgwrap.on {
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    transform: translate(0px, 0px);
+  }
+
+  #visual .ab_home {
+    position: absolute;
+    left: 230px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  #visual .ab_home div {
+    display: flex;
+  }
+  #visual .ab_home div img {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+  }
+  #visual .ab_home h2 {
+    font-size: 90px;
+    margin: 20px 0px;
+    transition: 0.5s;
+  }
+  #visual .ab_home h3 {
+    font-size: 30px;
+    transition: 0.5s;
+  }
+  /*container*/
+  #container {
+    width: 100%;
+  }
+  .about_navi {
+    width: 100%;
+    display: flex;
+    background: #fff;
+    padding: 20px 0px;
+    justify-content: center;
+    gap: 60px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .about_navi a {
+    padding: 5px 15px;
+  }
+  .about_navi li.on a {
+    background: #3f71b4;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: normal;
+  }
+}
+@media (min-width: 768px) and (max-width: 1520px) {
+  /*visual*/
+  #visual {
+    width: 100%;
+    height: 800px;
+    position: relative;
+  }
+  #visual .vi_imgwrap {
+    width: 60%;
+    height: 70%;
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    transition: 1s;
+  }
+  #visual .vi_imgwrap img {
+    width: 100%;
+    height: 80%;
+  }
+  #visual .vi_imgwrap.on {
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    transform: translate(0px, 0px);
+  }
+  #visual .vi_imgwrap.on img {
+    width: 100%;
+    height: 100%;
+  }
+  #visual .ab_home {
+    position: absolute;
+    left: 100px;
+    top: 30%;
+  }
+  #visual .ab_home div {
+    display: flex;
+  }
+  #visual .ab_home div img {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+  }
+  #visual .ab_home h2 {
+    font-size: 9vw;
+    margin: 20px 0px;
+    transition: 0.5s;
+  }
+  #visual .ab_home h3 {
+    font-size: 4vw;
+    transition: 0.5s;
+  }
+  /*container*/
+  #container {
+    width: 100%;
+  }
+  .about_navi {
+    width: 100%;
+    display: flex;
+    background: #fff;
+    padding: 20px 0px;
+    justify-content: center;
+    gap: 60px;
+    font-size: 2vw;
+    font-weight: bold;
+  }
+  .about_navi a {
+    padding: 5px 15px;
+  }
+  .about_navi li.on a {
+    background: #3f71b4;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: normal;
+  }
+}
+@media (max-width: 767px) {
+  /*visual*/
+  #visual {
+    width: 100%;
+    height: 80vw;
+    position: relative;
+  }
+  #visual .vi_imgwrap {
+    width: 60%;
+    height: 50%;
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    transition: 1s;
+  }
+  #visual .vi_imgwrap img {
+    width: 100%;
+    height: 80%;
+  }
+
+  #visual .ab_home {
+    position: absolute;
+    left: 7vw;
+    top: 30%;
+  }
+  #visual .ab_home div {
+    display: flex;
+  }
+  #visual .ab_home div img {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+  }
+  #visual .ab_home h2 {
+    font-size: 8vw;
+    margin: 20px 0px;
+    transition: 0.5s;
+  }
+  #visual .ab_home h3 {
+    font-size: 4vw;
+    transition: 0.5s;
+    color: #000 !important;
+  }
+  /*container*/
+  #container {
+    width: 100%;
+  }
+  .about_navi {
+    width: 100%;
+    background: #fff;
+    padding: 2vw 0vw;
+    font-size: 3vw;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .about_navi a {
+    padding: 1vw 2vw;
+  }
+  .about_navi li {
+    margin: 20px 0px;
+  }
+  .about_navi li.on a {
+    background: #3f71b4;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: normal;
+  }
+}

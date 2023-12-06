@@ -1,0 +1,1432 @@
+.con1 {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: 1s;
+}
+.con1.on {
+  transform: translateY(0px);
+  opacity: 1;
+}
+.con1 .con1_right li {
+  transform: translateY(100px);
+  opacity: 0;
+}
+.con1 .con1_right li.on {
+  transform: translateY(0px);
+  opacity: 1;
+  transition: 1s;
+}
+.con2 {
+  opacity: 0;
+  transition: 0.5s;
+}
+.con2.on {
+  opacity: 1;
+}
+.con2 > ul li {
+  transform: translateY(100px);
+  opacity: 0;
+}
+.con2 > ul li.on {
+  transform: translateY(0px);
+  opacity: 1;
+}
+.con2 > ul li:nth-of-type(1) {
+  transition-delay: 0.3s;
+}
+.con2 > ul li:nth-of-type(2) {
+  transition-delay: 0.5s;
+}
+.con2 > ul li:nth-of-type(3) {
+  transition-delay: 0.7s;
+}
+.con2 > ul li:nth-of-type(4) {
+  transition-delay: 0.8s;
+}
+.con2 > ul li:nth-of-type(5) {
+  transition-delay: 0.9s;
+}
+.con2 > ul li:nth-of-type(6) {
+  transition-delay: 1s;
+}
+.con3 {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: 1s;
+}
+.con3.on {
+  transform: translateY(0px);
+  opacity: 1;
+}
+.con4 {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: 1s;
+}
+.con4.on {
+  opacity: 1;
+  transform: translateY(0px);
+}
+.con4 ul li {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: 1s;
+}
+.con4.on ul li {
+  transform: translateY(0px);
+  opacity: 1;
+}
+.con4.on ul li:nth-of-type(1) {
+  transition-delay: 0.5s;
+}
+.con4.on ul li:nth-of-type(2) {
+  transition-delay: 0.8s;
+}
+.con4.on ul li:nth-of-type(3) {
+  transition-delay: 1s;
+}
+.con5 {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: 1s;
+}
+.con5.on {
+  opacity: 1;
+  transform: translateY(0px);
+}
+.con5 ul {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+.con5.on ul {
+  transform: translateY(0px);
+  opacity: 1;
+}
+@media (min-width: 1521px) {
+  /*visual*/
+  #visual {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+  }
+  #visual .viwrap {
+    width: 400%;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  #visual .viwrap li {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  #visual .viwrap img {
+    width: 100%;
+    height: 100%;
+  }
+  #visual .viwrap .text {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-10%);
+    color: #fff;
+    opacity: 0;
+    transition: 1s;
+  }
+  #visual .viwrap .text.on {
+    transform: translateY(-50%);
+    opacity: 1;
+  }
+  #visual .viwrap .text h2 {
+    font-size: 55px;
+  }
+  #visual .viwrap .text p {
+    font-size: 30px;
+    margin: 30px 0px;
+  }
+  #visual .viwrap .text .more {
+    width: 160px;
+    height: 45px;
+    line-height: 45px;
+  }
+  #visual .viwrap .text .more a {
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    border: 2px solid #fff;
+    transition: 0.5s;
+  }
+  #visual .viwrap .text .more a:hover {
+    border: 2px solid #3f71b4;
+    background-color: #3f71b4;
+  }
+  #visual .arrow {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 20px;
+  }
+  #visual .arrow div {
+    width: 130px;
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
+  }
+  #visual .arrow .prev {
+    text-align: right;
+  }
+  .navibar {
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+  }
+  .navibar li div {
+    width: 10px;
+    height: 10px;
+    background: #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .navibar li span {
+    width: 0px;
+    height: 100%;
+    display: block;
+    background: #3f71b4;
+  }
+  .navibar li.on div {
+    width: 70px;
+  }
+  .navibar li.on span {
+    width: 100%;
+    height: 100%;
+    transition: 5s;
+  }
+  /*container*/
+  #container {
+    width: 100%;
+  }
+  /*con1*/
+  .con1 {
+    width: 1500px;
+    margin: 150px auto;
+  }
+  .con1 .con1_wrap {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+  .con1 .con1_left {
+    width: 18%;
+  }
+  .con1 .con1_left h4 {
+    font-size: 22px;
+  }
+
+  .con1 .con1_left ul {
+    margin-top: 40px;
+  }
+  .con1 .con1_left ul li {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  .con1 .con1_left ul li.on {
+    border-bottom: 2px solid #3f71b4;
+    color: #3f71b4;
+    font-weight: bold;
+  }
+  .con1 .con1_right {
+    width: 80%;
+    position: relative;
+  }
+  .con1 .con1_right ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+  }
+  .con1 .con1_right ul.on {
+    display: flex;
+  }
+  .con1 .con1_right li {
+    width: calc(100% / 4);
+    padding: 5px;
+    cursor: pointer;
+    border: 5px solid #fff;
+  }
+  .con1 .con1_right li:hover {
+    border: 5px solid #3f71b4;
+  }
+  .con1 .con1_right li:hover h3 {
+    text-decoration: underline 2px;
+  }
+  .con1 .con1_right li:hover span {
+    background: #3f71b4;
+    color: #fff;
+    border-color: #3f71b4;
+  }
+  .con1 .con1_right img {
+    width: 100%;
+    height: 200px;
+  }
+  .con1 .con1_right h5 {
+    text-align: right;
+    color: #aaa;
+    font-weight: normal;
+    margin-top: 10px;
+  }
+  .con1 .con1_right .more {
+    display: flex;
+    justify-content: right;
+    margin-top: 30px;
+    font-size: 18px;
+  }
+  .con1 .con1_right .more span {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid #000;
+    margin-left: 10px;
+    transition: 0.5s;
+  }
+  .con1 .more2 {
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 50px auto;
+  }
+  .con1 .more2 a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: 2px solid #000;
+    border-radius: 30px;
+    font-size: 22px;
+    transition: 0.3s;
+  }
+  .con1 .more2 a:hover {
+    background: #3f71b4;
+    color: #fff;
+    border-color: #3f71b4;
+  }
+  /*con2*/
+  .con2 .title {
+    text-align: center;
+  }
+  .con2 > p {
+    text-align: center;
+    font-size: 20px;
+    margin: 50px 0px;
+  }
+  .con2 ul {
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+  .con2 ul li {
+    width: 390px;
+    height: 500px;
+    background: #eee;
+    position: relative;
+    transition: 0.5s;
+  }
+  .con2 ul li img {
+    position: absolute;
+    width: 65%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+  }
+  .con2 ul li .textbox {
+    width: 273px;
+    padding: 10px;
+    margin-left: 58.5px;
+    margin-top: 25px;
+    position: relative;
+    z-index: 5;
+  }
+  .con2 ul li .textbox h4 {
+    font-family: "NotoSerifKR";
+    font-size: 19px;
+  }
+  .con2 ul li .textbox .t1 p {
+    font-size: 18px;
+  }
+
+  .con2 ul li .textbox .t2 {
+    margin-top: 30px;
+    color: #fff;
+    line-height: 25px;
+    display: none;
+  }
+  .con2 ul li:hover {
+    transform: translateY(-20px);
+  }
+  .con2 ul li:hover img {
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    filter: brightness(50%);
+  }
+  .con2 ul li:hover .textbox {
+    margin-top: 50px;
+    color: #fff;
+  }
+  .con2 ul li:hover .t2 {
+    display: block;
+  }
+  /*con3*/
+  .con3 {
+    margin: 150px 0px;
+    width: 100%;
+    height: 600px;
+    background: url(../img/con3_bg.png) no-repeat center/cover;
+    color: #fff;
+    text-align: center;
+    position: relative;
+  }
+  .con3 .con3_wrap {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .con3 .con3_wrap h4 {
+    font-size: 22px;
+    font-weight: normal;
+    margin: 30px 0px;
+  }
+  .con3 .con3_wrap p:nth-of-type(2) {
+    margin: 20px 0px 50px;
+  }
+  .con3 .con3_wrap div {
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0px auto;
+  }
+  .con3 .con3_wrap div a {
+    font-size: 20px;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    transition: 0.5s;
+  }
+  .con3 .con3_wrap div a:hover {
+    background: #3f71b4;
+    border-color: #3f71b4;
+  }
+  /*con4*/
+  .con4 {
+    margin: 150px 0px;
+    text-align: center;
+    word-break: keep-all;
+  }
+  .con4 > h3 {
+    font-size: 30px;
+    margin: 30px 0px;
+  }
+  .con4 > h3 span {
+    color: #3f71b4;
+  }
+  .con4 > p {
+    font-size: 22px;
+  }
+  .con4 ul {
+    width: 75%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  .con4 ul li {
+    width: calc(100% / 3);
+  }
+  .con4 ul img {
+    width: 180px;
+  }
+  .con4 ul h3 {
+    font-size: 24px;
+    margin: 30px 0px;
+  }
+  .con4 ul li p {
+    font-size: 19px;
+  }
+  /*con5*/
+  .con5 {
+    text-align: center;
+  }
+  .con5 > p {
+    font-size: 20px;
+    margin: 50px 0px;
+  }
+  .con5 ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .con5 ul li {
+    position: relative;
+    overflow: hidden;
+  }
+  .con5 ul li {
+    width: 250px;
+    height: 535px;
+    background: url(../img/con5_1.jpg) no-repeat center/cover;
+    transition: 0.5s;
+  }
+  .con5 ul li:nth-of-type(2) {
+    background: url(../img/con5_2.jpg) no-repeat center/cover;
+  }
+  .con5 ul li:nth-of-type(3) {
+    background: url(../img/con5_3.jpg) no-repeat center/cover;
+  }
+  .con5 ul li:nth-of-type(4) {
+    background: url(../img/con5_4.jpg) no-repeat center/cover;
+  }
+  .con5 ul li .box {
+    width: 800px;
+    padding: 20px 100px 30px;
+    background-color: rgb(255, 255, 255, 0.7);
+    position: absolute;
+    bottom: 0px;
+    opacity: 0;
+  }
+  .con5 ul li .box div {
+    width: fit-content;
+    background: #3f71b4;
+    color: #fff;
+    padding: 5px 20px;
+    font-size: 25px;
+    margin: 0px auto;
+    transform: translateY(-35px);
+  }
+  .con5 ul li.on {
+    width: 800px;
+    border: 10px solid #3f71b4;
+  }
+  .con5 ul li.on .box {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1520px) {
+  /*visual*/
+  #visual {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+  }
+  #visual .viwrap {
+    width: 400%;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  #visual .viwrap li {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  #visual .viwrap img {
+    width: 100%;
+    height: 100%;
+  }
+  #visual .viwrap .text {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-10%);
+    color: #fff;
+    opacity: 0;
+    transition: 1s;
+  }
+  #visual .viwrap .text.on {
+    transform: translateY(-50%);
+    opacity: 1;
+  }
+  #visual .viwrap .text h2 {
+    font-size: 4vw;
+  }
+  #visual .viwrap .text p {
+    font-size: 2.2vw;
+    margin: 2vw 0px;
+  }
+  #visual .viwrap .text .more {
+    width: 12vw;
+    height: 4vw;
+    line-height: 4vw;
+  }
+  #visual .viwrap .text .more a {
+    width: 100%;
+    height: 100%;
+    font-size: 2vw;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    border: 2px solid #fff;
+    transition: 0.5s;
+  }
+  #visual .viwrap .text .more a:hover {
+    border: 2px solid #3f71b4;
+    background-color: #3f71b4;
+  }
+  #visual .arrow {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 2vw;
+  }
+  #visual .arrow div {
+    width: 9vw;
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
+  }
+  #visual .arrow .prev {
+    text-align: right;
+  }
+  .navibar {
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+  }
+  .navibar li div {
+    width: 10px;
+    height: 10px;
+    background: #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .navibar li span {
+    width: 0px;
+    height: 100%;
+    display: block;
+    background: #3f71b4;
+  }
+  .navibar li.on div {
+    width: 70px;
+  }
+  .navibar li.on span {
+    width: 100%;
+    height: 100%;
+    transition: 5s;
+  }
+
+  /*container*/
+  #container {
+    width: 100%;
+  }
+  /*con1*/
+  .con1 {
+    width: 80%;
+    margin: 100px auto;
+  }
+  .con1 .con1_left {
+    text-align: center;
+  }
+  .con1 .con1_left h4 {
+    font-size: 22px;
+  }
+  .con1 .con1_left ul {
+    display: flex;
+    justify-content: center;
+    gap: 4vw;
+    font-size: 2vw;
+    margin: 30px 0px;
+  }
+  .con1 .con1_left ul li {
+    cursor: pointer;
+  }
+  .con1 .con1_left ul li.on {
+    color: #3f71b4;
+  }
+  .con1 .con1_left ul li.on p {
+    border-bottom: 2px solid #3f71b4;
+    color: #3f71b4;
+    font-weight: bold;
+  }
+  .con1 .con1_left ul div {
+    transform: rotate(90deg);
+  }
+  .con1 .con1_right {
+    width: 100%;
+    height: 81vw;
+    position: relative;
+  }
+  .con1 .con1_right ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+  }
+  .con1 .con1_right ul.on {
+    display: flex;
+  }
+  .con1 .con1_right li {
+    width: calc(100% / 2 - 5vw);
+    margin-bottom: 3vw;
+    padding: 1vw;
+    border: 0.5vw solid #fff;
+  }
+  .con1 .con1_right li img {
+    width: 100%;
+    height: 25vw;
+  }
+  .con1 .con1_right li h5 {
+    text-align: right;
+    color: #aaa;
+    margin-top: 1vw;
+  }
+  .con1 .con1_right li h3 {
+    font-size: 2.2vw;
+  }
+  .con1 .con1_right li .more {
+    display: flex;
+    justify-content: right;
+    font-size: 1.8vw;
+  }
+  .con1 .con1_right li .more span {
+    border: 1px solid #000;
+    width: 2.4vw;
+    height: 2.4vw;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 10px;
+    transition: 0.5s;
+  }
+  .con1 .con1_right li:hover {
+    border: 0.5vw solid #3f71b4;
+    transition: none;
+  }
+  .con1 .con1_right li:hover h3 {
+    text-decoration: underline;
+  }
+  .con1 .con1_right li:hover .more span {
+    background: #3f71b4;
+    border-color: #3f71b4;
+    color: #fff;
+  }
+  .con1 .more2 {
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 50px auto;
+  }
+  .con1 .more2 a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: 2px solid #000;
+    border-radius: 30px;
+    font-size: 22px;
+    transition: 0.3s;
+  }
+  .con1 .more2 a:hover {
+    background: #3f71b4;
+    color: #fff;
+    border-color: #3f71b4;
+  }
+  /*con2*/
+
+  .con2 .title {
+    text-align: center;
+  }
+  .con2 > p {
+    text-align: center;
+    font-size: 20px;
+    margin: 50px 0px;
+    word-break: keep-all;
+  }
+  .con2 ul {
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+  .con2 ul li {
+    width: 390px;
+    height: 500px;
+    background: #eee;
+    position: relative;
+    transition: 0.5s;
+  }
+  .con2 ul li img {
+    position: absolute;
+    width: 65%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+  }
+  .con2 ul li .textbox {
+    width: 273px;
+    padding: 10px;
+    margin-left: 58.5px;
+    margin-top: 25px;
+    position: relative;
+    z-index: 5;
+  }
+  .con2 ul li .textbox h4 {
+    font-family: "NotoSerifKR";
+    font-size: 19px;
+  }
+  .con2 ul li .textbox .t1 p {
+    font-size: 18px;
+  }
+
+  .con2 ul li .textbox .t2 {
+    margin-top: 30px;
+    color: #fff;
+    line-height: 25px;
+    display: none;
+  }
+  .con2 ul li:hover {
+    transform: translateY(-10px);
+  }
+  .con2 ul li:hover img {
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    filter: brightness(50%);
+  }
+  .con2 ul li:hover .textbox {
+    margin-top: 50px;
+    color: #fff;
+  }
+  .con2 ul li:hover .t2 {
+    display: block;
+  }
+  /*con3*/
+  .con3 {
+    margin: 150px 0px;
+    width: 100%;
+    height: 600px;
+    background: url(../img/con3_bg.png) no-repeat center/cover;
+    color: #fff;
+    text-align: center;
+    position: relative;
+  }
+  .con3 .con3_wrap {
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .con3 .con3_wrap h4 {
+    font-size: 22px;
+    font-weight: normal;
+    margin: 30px 0px;
+  }
+
+  .con3 .con3_wrap p:nth-of-type(2) {
+    margin: 20px 0px 50px;
+  }
+  .con3 .con3_wrap div {
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0px auto;
+  }
+  .con3 .con3_wrap div a {
+    font-size: 20px;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    transition: 0.5s;
+  }
+  .con3 .con3_wrap div a:hover {
+    background: #3f71b4;
+    border-color: #3f71b4;
+  }
+  /*con4*/
+  .con4 {
+    margin: 150px 0px;
+    text-align: center;
+    word-break: keep-all;
+  }
+  .con4 > h3 {
+    font-size: 30px;
+    margin: 30px 0px;
+  }
+  .con4 > h3 span {
+    color: #3f71b4;
+  }
+  .con4 > p {
+    font-size: 22px;
+  }
+  .con4 ul {
+    width: 75%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  .con4 ul li {
+    width: calc(100% / 3);
+  }
+  .con4 ul img {
+    width: 15vw;
+  }
+  .con4 ul h3 {
+    font-size: 24px;
+    margin: 30px 0px;
+  }
+  .con4 ul li p {
+    font-size: 19px;
+  }
+  /*con5*/
+  .con5 {
+    text-align: center;
+  }
+  .con5 > p {
+    font-size: 20px;
+    margin: 50px 0px;
+  }
+  .con5 ul {
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+  }
+  .con5 ul li {
+    position: relative;
+    overflow: hidden;
+  }
+  .con5 ul li {
+    width: 15vw;
+    height: 535px;
+    background: url(../img/con5_1.jpg) no-repeat center/cover;
+    transition: 0.5s;
+  }
+  .con5 ul li:nth-of-type(2) {
+    background: url(../img/con5_2.jpg) no-repeat center/cover;
+  }
+  .con5 ul li:nth-of-type(3) {
+    background: url(../img/con5_3.jpg) no-repeat center/cover;
+  }
+  .con5 ul li:nth-of-type(4) {
+    background: url(../img/con5_4.jpg) no-repeat center/cover;
+  }
+  .con5 ul li .box {
+    width: 43.1vw;
+    padding: 0vw 1vw 2vw 1vw;
+    background-color: rgb(255, 255, 255, 0.7);
+    position: absolute;
+    bottom: 0px;
+    opacity: 0;
+    word-break: keep-all;
+  }
+  .con5 ul li .box div {
+    width: fit-content;
+    background: #3f71b4;
+    color: #fff;
+    padding: 5px 20px;
+    font-size: 25px;
+    margin: 0px auto;
+    transform: translateY(-1.5vw);
+  }
+  .con5 ul li.on {
+    width: 45vw;
+    border: 1vw solid #3f71b4;
+  }
+  .con5 ul li.on .box {
+    opacity: 1;
+  }
+}
+@media (max-width: 767px) {
+  /*visual*/
+  #visual {
+    width: 100%;
+    height: 100vw;
+    position: relative;
+    overflow: hidden;
+    word-break: keep-all;
+  }
+  #visual .viwrap {
+    width: 400%;
+    height: 100vw;
+    display: flex;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  #visual .viwrap li {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  #visual .viwrap img {
+    width: 100%;
+    height: 100%;
+  }
+  #visual .viwrap .text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -10%);
+    color: #fff;
+    opacity: 0;
+    transition: 1s;
+    text-align: center;
+  }
+  #visual .viwrap .text.on {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+  #visual .viwrap .text h2 {
+    font-size: 5vw;
+  }
+  #visual .viwrap .text p {
+    font-size: 3.5vw;
+    margin: 2vw 0px;
+  }
+  #visual .viwrap .text .more {
+    width: 20vw;
+    height: 6vw;
+    line-height: 5.5vw;
+    margin: 0px auto;
+  }
+  #visual .viwrap .text .more a {
+    width: 100%;
+    height: 100%;
+    font-size: 3vw;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    border: 2px solid #fff;
+    transition: 0.5s;
+  }
+  #visual .viwrap .text .more a:hover {
+    border: 2px solid #3f71b4;
+    background-color: #3f71b4;
+  }
+  #visual .arrow {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 3vw;
+  }
+  #visual .arrow div {
+    width: 12vw;
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
+  }
+  #visual .arrow .prev {
+    text-align: right;
+  }
+  .navibar {
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+  }
+  .navibar li div {
+    width: 10px;
+    height: 10px;
+    background: #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .navibar li span {
+    width: 0px;
+    height: 100%;
+    display: block;
+    background: #3f71b4;
+  }
+  .navibar li.on div {
+    width: 70px;
+  }
+  .navibar li.on span {
+    width: 100%;
+    height: 100%;
+    transition: 5s;
+  }
+  /*container*/
+  #container {
+    width: 100%;
+  }
+  /*con1*/
+  .con1 {
+    width: 80%;
+    margin: 100px auto;
+  }
+  .con1 .con1_left {
+    text-align: center;
+  }
+  .con1 .con1_left h4 {
+    font-size: 22px;
+  }
+  .con1 .con1_left ul {
+    display: flex;
+    justify-content: center;
+    gap: 4vw;
+    font-size: 4vw;
+    margin: 30px 0px;
+  }
+  .con1 .con1_left ul li {
+    cursor: pointer;
+  }
+  .con1 .con1_left ul li.on {
+    color: #3f71b4;
+  }
+  .con1 .con1_left ul li.on p {
+    border-bottom: 2px solid #3f71b4;
+    font-weight: bold;
+  }
+  .con1 .con1_left ul div {
+    transform: rotate(90deg);
+  }
+  .con1 .con1_right {
+    width: 100%;
+    height: 300vw;
+    position: relative;
+  }
+  .con1 .con1_right ul {
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+  }
+  .con1 .con1_right ul.on {
+    display: block;
+  }
+  .con1 .con1_right li {
+    width: 100%;
+    margin-bottom: 5vw;
+    padding: 1vw;
+    border: 0.8vw solid #fff;
+  }
+  .con1 .con1_right li img {
+    width: 100%;
+    height: 46vw;
+  }
+  .con1 .con1_right li h5 {
+    text-align: right;
+    color: #aaa;
+    margin-top: 1vw;
+  }
+  .con1 .con1_right li h3 {
+    font-size: 4.5vw;
+  }
+  .con1 .con1_right li .more {
+    display: flex;
+    justify-content: right;
+    font-size: 4vw;
+  }
+  .con1 .con1_right li .more span {
+    border: 1px solid #000;
+    width: 5.5vw;
+    height: 5.5vw;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 10px;
+    transition: 0.5s;
+  }
+  .con1 .con1_right li:hover {
+    border: 0.8vw solid #3f71b4;
+    transition: none;
+  }
+  .con1 .con1_right li:hover h3 {
+    text-decoration: underline;
+  }
+  .con1 .con1_right li:hover .more span {
+    background: #3f71b4;
+    border-color: #3f71b4;
+    color: #fff;
+  }
+  .con1 .more2 {
+    width: 32vw;
+    height: 8vw;
+    line-height: 8vw;
+    text-align: center;
+    margin: 50px auto;
+  }
+  .con1 .more2 a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: 2px solid #000;
+    border-radius: 30px;
+    font-size: 4vw;
+    transition: 0.3s;
+  }
+  .con1 .more2 a:hover {
+    background: #3f71b4;
+    color: #fff;
+    border-color: #3f71b4;
+  }
+  /*con2*/
+  .con2 {
+    width: 90%;
+    margin: 100px auto;
+  }
+  .con2 .title {
+    text-align: center;
+  }
+  .con2 > p {
+    text-align: center;
+    font-size: 20px;
+    margin: 50px 0px;
+    word-break: keep-all;
+  }
+  .con2 ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+  .con2 ul li {
+    width: 100%;
+    height: 120vw;
+    background: #eee;
+    position: relative;
+    transition: 0.5s;
+  }
+  .con2 ul li img {
+    position: absolute;
+    width: 65%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+  }
+  .con2 ul li .textbox {
+    width: 80%;
+    padding: 10px;
+    margin-left: 10vw;
+    margin-top: 25px;
+    position: relative;
+    z-index: 5;
+  }
+  .con2 ul li .textbox h4 {
+    font-family: "NotoSerifKR";
+    font-size: 5vw;
+  }
+  .con2 ul li .textbox .t1 p {
+    font-size: 4vw;
+  }
+
+  .con2 ul li .textbox .t2 {
+    margin-top: 30px;
+    color: #fff;
+    line-height: 25px;
+    display: none;
+  }
+  .con2 ul li:hover {
+    transform: translateY(-10px);
+  }
+  .con2 ul li:hover img {
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    filter: brightness(50%);
+  }
+  .con2 ul li:hover .textbox {
+    margin-top: 50px;
+    color: #fff;
+  }
+  .con2 ul li:hover .t2 {
+    display: block;
+  }
+  /*con3*/
+  .con3 {
+    margin: 150px 0px;
+    width: 100%;
+    height: 600px;
+    background: url(../img/con3_bg.png) no-repeat center/cover;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    word-break: keep-all;
+  }
+  .con3 .con3_wrap {
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .con3 .con3_wrap h4 {
+    font-size: 22px;
+    font-weight: normal;
+    margin: 30px 0px;
+  }
+
+  .con3 .con3_wrap p:nth-of-type(2) {
+    margin: 20px 0px 50px;
+  }
+  .con3 .con3_wrap div {
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0px auto;
+  }
+  .con3 .con3_wrap div a {
+    font-size: 20px;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    transition: 0.5s;
+  }
+  .con3 .con3_wrap div a:hover {
+    background: #3f71b4;
+    border-color: #3f71b4;
+  }
+  /*con4*/
+  .con4 {
+    margin: 150px 0px;
+    text-align: center;
+    word-break: keep-all;
+  }
+  .con4 > h3 {
+    font-size: 30px;
+    margin: 30px 0px;
+  }
+  .con4 > h3 span {
+    color: #3f71b4;
+  }
+  .con4 > p {
+    font-size: 22px;
+  }
+  .con4 ul {
+    width: 75%;
+    margin: 100px auto;
+  }
+  .con4 ul li {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .con4 ul img {
+    width: 30vw;
+  }
+  .con4 ul h3 {
+    font-size: 24px;
+    margin: 30px 0px;
+  }
+  .con4 ul li p {
+    font-size: 19px;
+  }
+  /*con5*/
+  .con5 {
+    width: 90%;
+    margin: 100px auto;
+    text-align: center;
+    word-break: keep-all;
+  }
+  .con5 > p {
+    font-size: 20px;
+    margin: 50px 0px;
+  }
+
+  .con5 ul li {
+    position: relative;
+    overflow: hidden;
+  }
+  .con5 ul li {
+    width: 100%;
+    height: 15vw;
+    background: url(../img/con5_1.jpg) no-repeat center/cover;
+    transition: 0.5s;
+    margin-bottom: 1vw;
+  }
+  .con5 ul li:nth-of-type(2) {
+    background: url(../img/con5_2.jpg) no-repeat center/cover;
+  }
+  .con5 ul li:nth-of-type(3) {
+    background: url(../img/con5_3.jpg) no-repeat center/cover;
+  }
+  .con5 ul li:nth-of-type(4) {
+    background: url(../img/con5_4.jpg) no-repeat center/cover;
+  }
+  .con5 ul li .box {
+    width: 100%;
+    padding: 0vw 1vw 2vw 1vw;
+    background-color: rgb(255, 255, 255, 0.7);
+    position: absolute;
+    bottom: 0px;
+    opacity: 0;
+  }
+  .con5 ul li .box div {
+    width: fit-content;
+    background: #3f71b4;
+    color: #fff;
+    padding: 5px 20px;
+    font-size: 25px;
+    margin: 0px auto;
+    transform: translateY(-2.5vw);
+  }
+  .con5 ul li.on {
+    height: 55vw;
+    border: 1vw solid #3f71b4;
+  }
+  .con5 ul li.on .box {
+    opacity: 1;
+  }
+}
