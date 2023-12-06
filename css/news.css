@@ -2,6 +2,9 @@
   width: 100%;
   height: 100%;
 }
+.datepicker {
+  background: #fff;
+}
 
 .con1 ul li {
   transform: translateY(100px);
