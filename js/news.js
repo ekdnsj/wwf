@@ -39,6 +39,7 @@ $(function () {
     buttonImageOnly: true, //버튼 이미지만 깔끔하게 보이게함
     buttonText: "선택", //버튼 호버 텍스트
     yearSuffix: "년", //달력의 년도 부분 뒤 텍스트
+    backgroundColor: "#fff",
     monthNamesShort: [
       "1월",
       "2월",
