@@ -2,9 +2,6 @@
   width: 100%;
   height: 100%;
 }
-.datepicker {
-  background: #fff;
-}
 
 .con1 ul li {
   transform: translateY(100px);
@@ -158,6 +155,10 @@
     margin-right: 10px;
   }
 
+  .top_right .cal div {
+    display: flex;
+    transform: translateY(12px);
+  }
   .top_right .ser .search {
     transform: translateY(-6px);
     border-left: none;
@@ -338,6 +339,10 @@
   .con3 .con3_top h4 {
     font-size: 2.2vw;
     margin-bottom: 1.4vw;
+  }
+  .top_right .cal div {
+    display: flex;
+    transform: translateY(12px);
   }
   .con3 .top_right {
     display: flex;
@@ -539,8 +544,16 @@
   }
   .con3 .con3_top h4 {
     font-size: 3.5vw;
-    margin-bottom: 1.4vw;
+    margin-bottom: 2vw;
     margin-left: 4px;
+  }
+  .top_right .cal div {
+    display: flex;
+    width: 100%;
+    margin-left: 5px;
+  }
+  .top_right .cal div form input {
+    width: 100%;
   }
   .top_right li input {
     width: 35%;
@@ -558,10 +571,6 @@
     border-radius: 0px;
     border: 1px solid #000;
     background: #fff;
-  }
-  .top_right .cal div {
-    height: 30px;
-    margin-left: 4px;
   }
 
   .top_right .ser .search {
